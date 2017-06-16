@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.game-square {
+    width: 100px;
+    height: 100px;
+    background-color: lightgrey;
+    border: 1px solid darkgrey;
+    display: inline-block;
+}
+
+.game-square.player1 {
+    background-color: red;
+}
+
+.game-square.player2 {
+    background-color: blue;
+}
